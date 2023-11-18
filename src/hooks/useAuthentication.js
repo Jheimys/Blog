@@ -1,4 +1,4 @@
-import { db } from'../firebase/config'
+//import { db } from'../firebase/config'
 
 import {
     getAuth,
@@ -82,24 +82,25 @@ export const useAuthentication = () => {
         setLoading(true)
         setError(false)
 
+        
         try {
             await signInWithEmailAndPassword(auth, data.email, data.password)
             setLoading(false)
 
         } catch (error) {
-             let systemErrorMessage
-
-            if(error.message.includes("user-not-found")){
-                systemErrorMessage = "Usuário não encontrado."
-
-            } else if(error.message.includes('invalid-login-credentials')) {
-                systemErrorMessage = 'Senha incorreta.'
+            let systemErrorMessage
+            
+          
+             if(error.message.includes('invalid-login-credentials')) {
+                systemErrorMessage = 'Usuário ou senha incorreto.'
+                console.log("Error2:", error.message)
 
             } else {
                 systemErrorMessage = 'Ocorreu um error, por favor tente mais tarde.'
             }
-
+            
             console.log("Error:", systemErrorMessage)
+            
             setError(systemErrorMessage)
             setLoading(false)
         }

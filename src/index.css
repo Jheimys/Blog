@@ -72,12 +72,12 @@ input, textarea{
   font-size: 1em;
 }
 
-.btn .btn-dark{
+.btn.btn-dark{
   background-color: #000;
   border-radius: 0;
 }
 
-.btn .btn-outline {
+.btn.btn-outline {
   background-color: transparent;
   border-radius: 0;
   color: #000;
@@ -90,11 +90,11 @@ input, textarea{
   color: #FFF;
 }
 
-.btn .btn-outline:hover{
+.btn.btn-outline:hover{
   background-color: #000;
 }
 
-.btn .btn-danger:hover{
+.btn.btn-danger:hover{
   background-color: #DC3545;
 }
 
