@@ -10,6 +10,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import CreatePost from './pages/CreatePost';
 import Dashboard from './pages/Dashboard';
+import Search from './pages/Search';
 
 //components
 import Navbar from './components/Navbar';
@@ -21,6 +22,8 @@ import { AuthProvider } from './context/AuthContext';
 //Hooks
 import { useEffect, useState } from 'react';
 import { useAuthentication } from './hooks/useAuthentication';
+
+//firebase
 import { onAuthStateChanged } from 'firebase/auth';
 
 
@@ -51,6 +54,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
+              <Route path='/search' element={<Search />} />
               <Route 
                 path='/login' 
                 element={!user ? <Login /> : <Navigate to='/' />} 
