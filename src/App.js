@@ -25,6 +25,7 @@ import { useAuthentication } from './hooks/useAuthentication';
 
 //firebase
 import { onAuthStateChanged } from 'firebase/auth';
+import Post from './pages/Post';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
               <Route path='/search' element={<Search />} />
+              <Route path='/post/:id' element={<Post />} />
               <Route 
                 path='/login' 
                 element={!user ? <Login /> : <Navigate to='/' />} 
