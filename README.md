@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h1 align=center>🔍 Featured Project: Dynamic Blog </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome! 👋
 
-## Available Scripts
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Jheimys/Electronic_battery/blob/master/LICENCE)
+![NPM](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2FJheimys%2FOrgano_II%2Fedit%2Fmaster%2FREADME.m)
 
-In the project directory, you can run:
+Thank you for visiting and feel free!
 
-### `npm start`
+I am always striving to improve my code. I would appreciate your feedback."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 💡 Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I developed a dynamic blog that is not just a publishing platform but an engaging community where enthusiasts can register, create, edit, and delete their own posts. The platform provides an interactive and collaborative experience, encouraging the exchange of ideas and knowledge.
 
-### `npm test`
+  <p align=center>
+    <image width="670" heigth="570" src='https://github.com/Jheimys/assets/blob/master/BlogCapa.png'>
+  </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Project Status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> :trophy: Completed::trophy:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Project Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:hammer:`Feature 1`: Registration and Authentication.
+Secure registration and authentication system using Firebase Authentication. Each user has their exclusive profile to manage their posts
 
-### `npm run eject`
+<p align=center>
+  <image width="670" heigth="770" src='https://github.com/Jheimys/assets/blob/master/BlogLogin.gif'>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:hammer: `Feature 2`: Posts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align=center>
+  <image width="670" heigth="770" src='https://github.com/Jheimys/assets/blob/master/BlogPost.gif'>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+:hammer: `Feature 3`: Post Management and Advanced Search:
+Ability to create, view, edit, and delete posts intuitively. Real-time editing functionality using React.js and Firebase Realtime Database. Implemented an advanced search mechanism allowing users to find specific posts using relevant tags. The search is optimized to provide fast and accurate results.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align=center>
+  <image width="670" heigth="770" src='https://github.com/Jheimys/assets/blob/master/BlogDashboard.gif'>
+</p>
 
-## Learn More
+# Technologies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+:heavy_check_mark: HTML
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:heavy_check_mark:CSS
 
-### Code Splitting
+:heavy_check_mark: JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+:heavy_check_mark: React
 
-### Analyzing the Bundle Size
+:heavy_check_mark: Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:heavy_check_mark: Node.js e npm (Node Package Manager)
 
-### Making a Progressive Web App
+# Access to the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+:link: https://blog-jheimys.vercel.app/
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![img](https://github.com/Jheimys.png?size=100)
 
-### Deployment
+James Bezerra Bassani
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:globe_with_meridians: [Linkedin](https://www.linkedin.com/in/jheimys/)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀
